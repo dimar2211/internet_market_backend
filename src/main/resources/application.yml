@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/internet_market
+    username: root
+    password: Iamamage99
+  jpa:
+    hibernate:
+      use-new-id-generator-mappings: false
+      ddl-auto: update
+    generate-ddl: true
+
+t:
+  app:
+    jwtSecret: secret
+    jwtExpiration: 1000000000
